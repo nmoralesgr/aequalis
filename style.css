@@ -1,0 +1,419 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin-top:5em;
+  padding:0;
+}
+
+
+/*Nav Bar*/ 
+header{
+  position:fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color:#f5f4f4;
+
+}
+
+header2{
+    position:fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color:#a3d1f5 ;
+}
+
+header3{
+    position:fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color:#a47a56;
+}
+
+header4{
+    position:fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color:#f59ee2;
+}
+
+ul{
+  
+  padding:2em;
+  margin: -8px;
+}
+
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  padding: 1em;
+  color: black;
+}
+
+li a:hover{
+  color: red;
+}
+
+
+/*NAV BAR END*/ 
+
+/*INDIVIDUAL PAGES DESIGN*/
+.homeBody{
+  background: black;
+  color: white;
+}
+
+.womenBody{
+  background: #ffffff;
+}
+
+.pocBody{
+  background: white;
+}
+
+.lgbtqBody{
+  background: #f9e4cd;
+}
+
+.aboutusBody{
+  background: black;
+  color: white;
+}
+
+.pocHeader {
+  background-color: #e3c29c;
+  color: #7e532a;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 75px;
+}
+
+.womenHeader{
+  background-color: #f9b8eb;
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+/*END INDIVIDUAL PAGES DESIGN*/
+
+/*TITLES AND SUBTITLES*/
+h1{
+  font-size: 1900%;
+  margin-top: -150px;
+  font-family:'Inter';
+  font-style: italic;
+  font-weight: lighter;
+  margin-bottom: -150px;
+  text-align: center;
+
+}
+
+h2{
+  font-size: 550%;
+  font-family: century gothic;
+  font-style: italic;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h3 {
+  font-size: 300%;
+  text-align: center;
+  padding: 40px;
+  margin-top: 5px;
+}
+
+h4 {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 150%;
+line-height: 24px;
+text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+h5{
+  font-size: 200%;
+  margin-top: 50px;
+  margin-bottom:0px;
+  margin-left: 50px;
+}
+
+.bottomBar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 12px;
+  font-family: verdana;
+  margin-top: 10%;
+  background: white;
+  color: black;
+  padding: 1%;
+}
+
+.policy:hover {
+  cursor: pointer;
+}
+
+/*END OF TITLES AND SUBTITLES*/
+
+/* WOMEN CSS */
+.W{
+  overflow-x:hidden;
+}
+.womenTitles{
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  padding-top: 30px;
+
+}
+
+.womenInfo{
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.womenTxt{
+  padding:1%;
+  margin:1%;
+  background-color: #f9b8eb;
+  border-style:solid;
+  color: #502626;
+  border-color: #502626;
+  margin-bottom: 10%;
+}
+
+.picture{
+  max-width: 100%;
+  max-height: 100%;
+  margin-right: 20%;
+  margin-left: 13%;
+  border-style: solid;
+  border-color: #f9b8eb;
+  border-width: 10px;
+}
+/* END OF WOMEN CSS */
+
+/* ABOUT US CSS */
+.container {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 30px;
+     justify-content: space-around;
+}
+.item {
+  max-width: 25%;
+  max-height: 25%;
+}
+
+.authors{
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+
+p2{
+  margin-top:5px;
+  margin-bottom:5%;
+  margin-left:5%;
+  margin-right:5%;
+  font-size: 110%;
+}
+
+.siteSummary {
+  margin-left: 150px;
+  margin-right: 150px;
+  
+}
+/* END OF ABOUT US CSS */
+
+/* POC CSS */
+
+.pocButtons {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  margin: 100px;
+}
+
+.pocButtons2 {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  margin: 100px;
+}
+
+.blm {
+  background-color: #815022;
+  font-size: 50px;
+  font-family: times-new-roman;
+  padding: 50px;
+  height: 400px;
+  width: 800px;
+}
+
+.aapi {
+  background-color: #f9d8b9;
+  font-size: 50px;
+  font-family: times-new-roman;
+  padding: 60px;
+  height: 400px;
+  width: 800px;
+}
+
+.latinos {
+  background-color: #cf8744;
+  font-size: 50px;
+  font-family: times-new-roman;
+  padding: 50px;
+  height: 400px;
+  width: 800px;
+}
+
+.resources {
+  background-color: #f7c08d;
+  font-size: 50px;
+  font-family: times-new-roman;
+  padding: 50px;
+  height: 400px;
+  width: 800px;
+}
+
+a {
+  color: black;
+}
+/* LGBTQ+ CSS */
+.lgbtqHeader{
+  background-image:url(assets/lgbtq+flags/rainbowFlag.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  color: #ffffff;
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 150%;
+    margin-left: 10%;
+  margin-right: 10%;
+}
+
+.lgbtLink {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 25;
+  font-size: 150%;
+
+}
+
+.lgbtqPicContainer{
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+.lgbtPic {
+  width: 800px; 
+/*   margin-right: 20%;
+  margin-left: 13%; */
+  border-style: solid;
+  border-color: #a3d1f5;
+}
+.LGBTallBtnClass{
+  border-color: #a3d1f5;
+}
+.LGBTallBtnClass:hover{
+  border-color: red; 
+  
+}
+.LGBTQdescr{
+  padding:1%;
+  margin:1%;
+  background-color:  #a3d1f5;
+  border-style:none;
+  color: #ffffff;
+  text-align: left;
+  font-size: 17px;
+}
+.lgbtBtn {
+  display:flex;
+  justify-content: space-around;
+  align-content: space-around;
+  margin-right: 100px;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 25;
+  font-size: 150%;
+}
+
+.lesbianBtn{
+  background-image:url(assets/lgbtq+flags/lesbianFlag.png);
+  border-color: #f7c08d;
+  margin: 10px; 
+  padding: 5px;
+  height: 84px;
+  width: 153px;
+  margin-bottom: 20px; 
+}
+.gayBtn{
+  background-image:url(assets/lgbtq+flags/gayFlag.png);
+  border-color: #f7c08d;
+  margin: 10px; 
+  padding: 5px;
+  height: 84px;
+  width: 153px;
+}
+.bisexualBtn{
+  background-image:url(assets/lgbtq+flags/bisexualFlag.png);
+  border-color: #f7c08d;
+  margin: 10px; 
+  padding: 5px;
+  height: 84px;
+  width: 153px;
+}
+.transgenderBtn{
+  background-image:url(assets/lgbtq+flags/transFlag.png);
+  border-color: #f7c08d;
+  margin: 10px; 
+  padding: 5px;
+  height: 84px;
+  width: 153px;
+}
+.queerBtn{
+  background-image:url(assets/lgbtq+flags/queer+Flag.png);
+  border-color: #f7c08d;
+  margin: 10px; 
+  padding: 5px;
+  height: 84px;
+  width: 153px;
+}
+
+.sub {
+  color: white;
+  font-size: 25px;
+}
+
+.subscription {
+  display: flex;
+  justify-content: center;
+}
